@@ -1,0 +1,324 @@
+.navbar {
+    height: 40px;
+    background-color:red;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .nav {
+    height: 120px;
+    background-color: lightblue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+  }
+
+  .lagos > img {
+    height: 100px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+  }
+
+  .headings {
+    flex-grow: 2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+  }
+  
+  .headings > ul > li {
+    display: inline-block;
+    color: black;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: PoppinsMedium;
+    cursor: pointer;
+    padding-top: 30px;
+    margin-left: 13px;
+
+  }
+
+  .logo > img {
+    height: 100px;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10%;
+  }
+
+  .headings > ul > li:hover {
+    color: red;
+  }
+
+  .slider {
+    background-image: url(https://www.quranteacher.net/web_assets/images/slider-m.jpg);
+    height:700px;
+    width: 100%;
+  }
+
+  .bar {
+    height: 180px;
+    background-color: darkcyan;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .bar>h1{
+    color: antiquewhite;
+  }
+
+  .s>ul>li
+  {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    font-size: 25px;
+     color: antiquewhite;
+
+        }
+
+        .s
+        {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          }
+          .bar>p{
+            text-align: center;
+            justify-content: center;
+            
+          }
+
+.out{
+  text-align: center;
+  background-color:  rgb(255, 221, 221);
+  overflow: hidden ;
+  font-size: 25px;
+}
+.out span{
+  color: red;
+}
+.s span{
+  color: black;
+  font-size: 15px;
+}
+
+.nb{
+  height: 80px;
+  background-color: cornflowerblue;
+  overflow: hidden;
+  padding-left: 650px;
+  font-size: 20px;
+}
+
+.nb>h1{
+  color: whitesmoke;
+}
+
+.coursese_list {
+  text-align: center;
+}
+
+.coursese_list>h1{
+  color: red;
+}
+
+.course_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  height: 480px;
+  width: 250px;
+  border: 1.5px white;
+  margin: 10px 10px;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.course > img {
+  height: 200px;
+  width: 100%;
+  image-rendering: crisp-edges;
+}
+
+.course > img:hover {
+  /* height: 210px; */
+  width: 110%;
+}
+
+.course> p {
+background-color: antiquewhite;
+}
+
+.bn{
+  height: 100px;
+  background-color: cornflowerblue;
+  overflow: hidden;
+  padding-left: 450px;
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+.bn>h1{
+  color: whitesmoke;
+}
+
+.teach_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(235, 230, 230);
+}
+
+.teach {
+  height: 300px;
+  width: 400px;
+  margin: 10px 10px;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer
+}
+
+.teach > img {
+  height: 100px;
+  width: 30%;
+}
+
+.teach > img:hover {
+  /* height: 110px; */
+  width: 40%;
+}
+
+.gel {
+  height: 100px;
+  background-color: cornflowerblue;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 22px;
+  padding-top: 25px;
+}
+
+.gel>h1{
+  color: whitesmoke;
+}
+
+.foj_container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faiz{
+  height: 500px;
+  width: 50%;
+  padding-top: 70px;
+  overflow: hidden;
+  background-color: rgb(248, 247, 245);
+  border: 1px black;
+  
+}
+.faiz>image{
+  height: 300;
+  width: 50%;
+}
+
+.f2{
+  height: 500px;
+  width: 50%;
+  padding-top: 70px;
+  overflow: hidden;
+  background-color: rgb(248, 247, 245);
+  border: 1px black;
+}
+
+.f2>image{
+  height: 300;
+  width: 50%;
+}
+
+.ved {
+  height: 100px;
+  background-color : cornflowerblue;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.ved>h1{
+  color: whitesmoke;
+}
+
+.deo_container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vi{
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px black;
+}
+
+.vi>video{
+  height: 400px;
+  width: 700px;
+  overflow: hidden;
+}
+
+.tes {
+  height: 100px;
+  background-color : cornflowerblue;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 30px;
+}
+.tes>h1{
+  color: whitesmoke;
+}
+
+.p{
+  text-align: center;
+  background-color:  rgb(240, 232, 232);
+  overflow: hidden ;
+  font-size: 25px;
+}
+
+.con {
+  height: 90px;
+  background-color : cornflowerblue;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.con>h1{
+  color: whitesmoke;
+}
+
+.fi{
+  background-color: rgb(230, 230, 238);
+  overflow: hidden;
+  font-size: 20px;
+}
